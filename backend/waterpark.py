@@ -22,16 +22,6 @@ class WaterPark:
         self.__transaction_list = []
         self.__finish_booking_manager = FinishBookingManager()
 
-    # Get information of system.
-    def get_zone(self):
-        return self.__zone_list
-    
-    def get_stock(self):
-        return self.__stock
-    
-    def get_zone_list(self):
-        return self.__zone_list
-
     # Add information to system.    
     def add_daily_stock(self, daily):
         if isinstance(daily, DailyStock):
@@ -141,8 +131,8 @@ class WaterPark:
         return "Membership registration completed."
     
     # # All Services
-    # def get_all_services(self):
-    #     return self.get_services_in_stock(self.__stock)
+    def get_all_services(self):
+        return self.get_services_in_stock(self.__stock)
     
     def get_services_in_date(self, member_id, vist_date):
         selected_date = self.format_str_to_date(vist_date)
@@ -372,7 +362,7 @@ def create_promotion():
 def create_member():
     return [ 
         Member("James", "james123@gmail.com", "0812345678", date(2001,2,14), "12xncvbj34")
-        ,Member("Yuji", "66010660@kmitl.ac.th", "0823456789", date(2002,1,3), "1xbv3z234")
+        ,Member("Yuji", "yuji@example.com", "0823456789", date(2002,1,3), "1xbv3z234")
         ,Member("Irene", "irene123@gmail.com", "0834567890", date(2003,4,2), "jdies234")
         ,Member("Charlotte", "charlotte@gmail.com", "0845678901", date(2004,1,4), "w.sa12sm.34")
         ,Member("Sharon", "sharon12@gmail.com", "0856789012", date(1998,12,1), "1ksl23aqo4")

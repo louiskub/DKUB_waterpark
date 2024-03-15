@@ -72,12 +72,7 @@ class Cabana:
             "price": self.__price,
             "is_reserve": self.__is_reserve
         }
-    def to_pdf(self):
-        return {
-            "name": self.name(),
-            "price": self.__price
-        }
-    
+
 class Locker:
     def __init__(self, size, remaining_amount):
         self.__size = size
@@ -115,11 +110,6 @@ class Locker:
             "size": self.__size,
             "remaining_amount": self.__remaining_amount
         }
-    def to_pdf(self):
-        return {
-            "name": self.name(),
-            "price": self.__price
-        }
 
 class Towel:
     def __init__(self, remaining_amount = 1000):
@@ -149,9 +139,3 @@ class Towel:
             "price": self.__price,
             "remaining_amount": self.__remaining_amount
         }
-    def to_pdf(self):
-        return {
-            "name": self.name(),
-            "price": self.__price
-        }
-    
