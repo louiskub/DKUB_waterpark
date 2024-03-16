@@ -5,7 +5,11 @@
 1. ดาวน์โหลด ไฟล์p9_Source code_กลุ่มDKUB_66010660_66010853 _66010898_66010933.zip 
 2. เปิดโฟลเดอร์ backend แล้วกดรัน backend.exe 
 3. เปิดโฟลเดอร์ frontend แล้วกดรัน frontend.exe
-   
+
+***หากโหลดไม่ได้ ให้โหลดจากลิ้งนี้แทน***
+https://drive.google.com/file/d/1WxhO5eOHoXeSRkWnCdqHsgcZClETDdya/view?usp=sharing
+*********
+
 กรณีไม่พบไฟล์หรือไม่สามารถเปิดไฟล์ backend.exe   ให้ทำการโหลด library ดังนี้ แล้วทำการรัน backend.py 
 
 1.	reportlab
