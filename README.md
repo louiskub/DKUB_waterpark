@@ -1,7 +1,7 @@
 # DKUB_waterpark
  
 # ขั้นตอนการSetup 
-
+(แนะนำให้ใช้file .exe มากที่สุด เนื่องจากไม่พบบัคจอขาว)
 1. ดาวน์โหลด ไฟล์p9_Source code_กลุ่มDKUB_66010660_66010853 _66010898_66010933.zip 
 2. เปิดโฟลเดอร์ backend แล้วกดรัน backend.exe 
 3. เปิดโฟลเดอร์ frontend แล้วกดรัน frontend.exe
