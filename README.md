@@ -8,7 +8,7 @@
    
 กรณีไม่พบไฟล์หรือไม่สามารถเปิดไฟล์ backend.exe   ให้ทำการโหลด library ดังนี้ แล้วทำการรัน backend.py 
 
-1.	reportlab svglib 
+1.	reportlab
 2.	svglib  
 3.	email 
 4.	fastapi 
